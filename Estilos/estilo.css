@@ -1,0 +1,42 @@
+body {
+
+  background-image: url(../Imagen/img1.jpg);
+
+}
+
+.video {
+  display: grid;
+  place-items: center;
+  background-color: rgba(7, 14, 47, 0.564);
+
+}
+
+.video-1 {
+  margin: auto;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: tomato;
+  background: linear-gradient(to bottom right, #212A34, #12171d81);
+
+  
+}
+
+h1{
+margin: 1em;
+}
+h4{
+  color: whitesmoke;
+}
+
+.cabeceras{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  float: right;
+}
