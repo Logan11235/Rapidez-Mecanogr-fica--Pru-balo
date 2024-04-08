@@ -1,0 +1,61 @@
+.multimedia {
+    position: absolute;
+    display: inline-flex;
+    margin: 0 auto;
+    background-color: #00000097;
+    padding: 15px 3em;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+#titulo {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.186);
+    max-width: 40%;
+    color: #d1c4ac;
+
+}
+h2{
+    font-size: 30px;
+}
+
+#imagen {
+    border: 1px black;
+}
+#video {
+    display: block;
+    text-align: center;
+}
+.descripcion {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenido{
+    background-color: green;
+    position: relative;
+    top: 26em;
+}
+.contenido .contenido1{
+    background-color: red;
+}
+
+
+@media(max-width:800px){
+    video{
+        width: 400px;
+        height: 200px;
+    }
+    .multimedia{
+        display: block;
+    }
+    #imagen {
+        width: 120px;
+    }
+    #titulo{
+        display: inline-flex;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
