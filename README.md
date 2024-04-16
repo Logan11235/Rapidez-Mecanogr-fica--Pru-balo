@@ -1,4 +1,4 @@
-# **MECANOGRAFRÍA EN EL SIGLO XXI**
+# **MECANOGRAFÍA EN EL SIGLO XXI**
 
 Explora diversas páginas de mecanografía donde podrás divertirte y aprender muchísimo
 
